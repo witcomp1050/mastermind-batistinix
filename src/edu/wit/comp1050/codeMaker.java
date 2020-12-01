@@ -20,7 +20,6 @@ public class codeMaker {
 
     public static Peg[] createCode() {
 
-
         Configurations configs = new Configurations();
         try
         {
@@ -37,8 +36,6 @@ public class codeMaker {
             System.out.println("Something went wrong");
             exit(0);
         }
-
-
 
         Peg[] code = new Peg[codeSize];
 
